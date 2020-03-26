@@ -278,7 +278,7 @@ compile_program:
         goto stop;
     }
 	
-	if (prescan.amountOfVariablesUsed > 84) {
+	if (prescan.amountOfVariablesUsed > 200) {
 		gfx_SetTextFGColor(224);
 		sprintf(buf, "Too much variables used: %d", prescan.amountOfVariablesUsed);
 		displayMessageLineScroll(buf);
