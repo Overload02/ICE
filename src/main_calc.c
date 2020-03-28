@@ -90,10 +90,10 @@ void main(void) {
 displayMainScreen:
     gfx_Begin();
 
-    gfx_SetColor(189);
+    gfx_SetColor(73);
     gfx_FillRectangle_NoClip(0, 0, 320, 10);
     gfx_SetColor(0);
-    gfx_SetTextFGColor(0);
+    gfx_SetTextFGColor(255);
     gfx_HorizLine_NoClip(0, 10, 320);
     gfx_PrintStringXY(infoStr, 12, 1);
 
